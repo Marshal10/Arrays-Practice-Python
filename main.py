@@ -19,3 +19,9 @@ print(arr1)
 print("Step 4")
 arr1.insert(3,12)
 print(arr1)
+
+# 5. Extend python array using the extend method
+print("Step 5")
+arr2=array('i',[7,8,9,10])
+arr1.extend(arr2)
+print(arr1)
