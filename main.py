@@ -58,3 +58,17 @@ print(arr1.buffer_info())
 # 12. Check for number of occurrences of an element using count method
 print("Step 12")
 print(arr1.count(4))
+
+# 13. Convert an array to string using tobytes method
+print("Step 13")
+arr_str=arr1.tobytes()
+print(arr_str)
+new_arr=array('i')
+new_arr.frombytes(arr_str)
+print(new_arr)
+
+# 14. Convert an array to a python list with same elemests using tolist method
+print("Step 14")
+arr_list=arr1.tolist()
+print(arr1,arr_list)
+print(type(arr1),type(arr_list))
