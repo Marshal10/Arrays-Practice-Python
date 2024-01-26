@@ -32,3 +32,7 @@ list1=[44,45,46]
 arr1.fromlist(list1)
 print(arr1)
 
+# 7. Remopve any array element using remove method
+print("Step 7")
+arr1.remove(12)
+print(arr1)
