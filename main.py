@@ -72,3 +72,7 @@ print("Step 14")
 arr_list=arr1.tolist()
 print(arr1,arr_list)
 print(type(arr1),type(arr_list))
+
+# 15.Slice elements from an array
+print("Step 14")
+print(arr1[2:5])
