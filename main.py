@@ -22,7 +22,7 @@ print(arr1)
 
 # 5. Extend python array using the extend method
 print("Step 5")
-arr2=array('i',[7,8,9,10])
+arr2=array('i',[7,8,9,10,2,4])
 arr1.extend(arr2)
 print(arr1)
 
@@ -50,3 +50,11 @@ print(arr1.index(7))
 print("Step 10")
 arr1.reverse()
 print(arr1)
+
+# 11. Get array buffer information through buffer_info method
+print("Step 11")
+print(arr1.buffer_info())
+
+# 12. Check for number of occurrences of an element using count method
+print("Step 12")
+print(arr1.count(4))
