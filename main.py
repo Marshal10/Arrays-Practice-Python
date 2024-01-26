@@ -9,3 +9,8 @@ for num in arr1:
 # 2. Access individual elements through index
 print("Step 2")
 print(arr1[2])
+
+#3. Append any value to the array using the append method
+print("Step 3")
+arr1.append(6)
+print(arr1)
