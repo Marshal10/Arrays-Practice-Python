@@ -14,3 +14,8 @@ print(arr1[2])
 print("Step 3")
 arr1.append(6)
 print(arr1)
+
+#4. Insert value in an array using the insert method
+print("Step 4")
+arr1.insert(3,12)
+print(arr1)
