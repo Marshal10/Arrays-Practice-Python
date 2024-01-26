@@ -25,3 +25,10 @@ print("Step 5")
 arr2=array('i',[7,8,9,10])
 arr1.extend(arr2)
 print(arr1)
+
+# 6. Add items from list into array using fromlist method
+print("Step 6")
+list1=[44,45,46]
+arr1.fromlist(list1)
+print(arr1)
+
