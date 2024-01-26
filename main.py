@@ -36,3 +36,8 @@ print(arr1)
 print("Step 7")
 arr1.remove(12)
 print(arr1)
+
+# 8. Remove last element using pop method
+print("Step 8")
+arr1.pop()
+print(arr1)
