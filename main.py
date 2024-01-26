@@ -41,3 +41,12 @@ print(arr1)
 print("Step 8")
 arr1.pop()
 print(arr1)
+
+# 9. Fetch the index of any element using the index method
+print("Step 9")
+print(arr1.index(7))
+
+# 10. Reverse the array using reverse method
+print("Step 10")
+arr1.reverse()
+print(arr1)
